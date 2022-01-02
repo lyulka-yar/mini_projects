@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(20, 18, 18);
+  overflow: hidden;
+}
+.container {
+  background-repeat: no-repeat;
+  display: flex;
+  height: 100vh;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider {
+  flex: 1;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  margin: 20px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.7s ease-out;
+}
+
+.slider h3 {
+  text-transform: uppercase;
+  color: bisque;
+  font-size: 24px;
+  position: absolute;
+  bottom: -50px;
+  overflow: hidden;
+  transform: translateY(5px);
+  opacity: 0;
+}
+
+.slider.active {
+  flex: 25;
+  transition: ease-in 0.8s;
+}
+
+.slider.active h3 {
+  opacity: 1;
+  left: 20px;
+  transform: translateY(-70px);
+  transition: 0.7s;
+}
+
+.slider:nth-child(1) {
+  background-image: url(https://inlnk.ru/AKdKaE);
+}
+.slider:nth-child(2) {
+  background-image: url(https://inlnk.ru/Vo9oxY);
+}
+.slider:nth-child(3) {
+  background-image: url(https://inlnk.ru/go9oxO);
+}
+.slider:nth-child(4) {
+  background-image: url(https://inlnk.ru/LABAme);
+}
+.slider:nth-child(5) {
+  background-image: url(https://inlnk.ru/agwg9g);
+}
+.slider:nth-child(6) {
+  background-image: url(https://inlnk.ru/9P4PNR);
+}
+.slider:nth-child(7) {
+  background-image: url(https://inlnk.ru/xvevkk);
+}
+.slider:nth-child(8) {
+  background-image: url(https://inlnk.ru/6808vQ);
+}
+.slider:nth-child(9) {
+  background-image: url(https://inlnk.ru/3ZDZQw);
+}
+.slider:nth-child(10) {
+  background-image: url(https://inlnk.ru/Kemevk);
+}
